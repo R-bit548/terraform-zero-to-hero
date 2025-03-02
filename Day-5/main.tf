@@ -1,5 +1,7 @@
 provider "aws" {
   region = "us-east-1"
+  skip_metadata_api_check = true
+  
 }
 
 # Define a variable for the VPC CIDR block
