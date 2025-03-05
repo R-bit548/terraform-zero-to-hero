@@ -11,7 +11,7 @@ variable "cidr" {
 
 # Generate an AWS key pair using the public key
 resource "aws_key_pair" "example" {
-  key_name   = "terraform-demo-mayur"
+  key_name   = "TerraformAccesskey"
   public_key = file("/home/ubuntu/.ssh/id_rsa.pub")
 }
 
